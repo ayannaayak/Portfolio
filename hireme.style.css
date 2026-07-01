@@ -1,0 +1,107 @@
+
+
+.hire{
+    padding:120px 9%;
+    background:#000;
+    color:#fff;
+}
+
+.hire-heading{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.hire-heading h1{
+    font-size:5rem;
+    margin-bottom:20px;
+}
+
+.hire-heading p{
+    max-width:750px;
+    margin:auto;
+    font-size:1.7rem;
+    line-height:1.8;
+}
+
+.hire-form{
+    max-width:900px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.hire-form h2{
+    font-size:3rem;
+    color:#b74b4b;
+    margin-top:30px;
+}
+
+.hire-form input,
+.hire-form textarea,
+.hire-form select{
+    padding:18px;
+    border:2px solid #b74b4b;
+    background:#111;
+    color:#fff;
+    border-radius:15px;
+    font-size:1.6rem;
+}
+
+.hire-form textarea{
+    resize:none;
+}
+
+.check-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:15px;
+}
+
+.check-grid label{
+    font-size:1.6rem;
+}
+
+.pricing{
+    padding:100px 9%;
+}
+
+.pricing h2{
+    text-align:center;
+    font-size:4.5rem;
+    margin-bottom:60px;
+}
+
+.pricing-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.price-card{
+    border:2px solid #b74b4b;
+    border-radius:20px;
+    padding:35px;
+    text-align:center;
+    transition:.3s;
+}
+
+.price-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px #b74b4b;
+}
+
+.price-card h3{
+    font-size:2.5rem;
+}
+
+.price-card h1{
+    font-size:4rem;
+    color:#b74b4b;
+    margin:20px 0;
+}
+
+.price-card p{
+    font-size:1.6rem;
+    margin:12px 0;
+}
